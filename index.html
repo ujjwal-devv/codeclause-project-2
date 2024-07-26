@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Url Shortener | Ujjwal Mishra</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <script src="https://cdn.lordicon.com/lordicon.js"></script>
+        <lord-icon src="https://cdn.lordicon.com/jdsvypqr.json" trigger="hover" stroke="bold"
+            colors="primary:#9cf4a7,secondary:#16c72e" style="width:100px;height:100px">
+        </lord-icon>
+        <h1>Shorten a long URL</h1>
+        <input type="text" id="longUrl" placeholder="Enter URL To Shorten">
+
+        <div class="buttons">
+            <button id="reload-btn">
+                <box-icon name='refresh'></box-icon>Refresh
+            </button>
+
+            <button id="short-btn">
+                <box-icon name='link'></box-icon> Shorten URL
+            </button>
+        </div>
+        <label for="shortUrl">Shortened URL</label>
+        <textarea id="shortUrl" rows="3"></textarea>
+        <small>Powered By Ujjwal</small>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
